@@ -1,0 +1,13 @@
+Se utiliza la información nacional de nacimientos registrados. http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_nacimientos_gobmx.html
+
+Se filtra Hidalgo y se utiliza la información de CLUES de la misma fuente para generar el conteo por CLUES. 
+
+Los archivos .csv y .geojson son distintos. 
+Los archivos .csv contienen la información completa para CLUES no identificadas
+Para el caso de CLUES, en el geojson se omiten las geometrías vacías (CLUES no identificadas).
+
+Los mismo para localidades, las localidades no identificadas por clave se encuentran en el .csv pero no en el .geojson
+
+ 
+
+#### El ejercicio se realiza para los años 2019-2024 y se suman. 
